@@ -82,7 +82,7 @@ faq = {
                 CarouselColumn(
                     # 匯率選單一圖片網址
                     title='台股選單一',
-                    text='點選下方按鈕查詢台股即時報價',
+                    text='點選下方按鈕查詢國小課程報價',
                     actions=[
                         MessageAction(
                             label='查詢台積電',
@@ -139,12 +139,33 @@ faq = {
             ]
         )
     ),
-    '聯絡方式': TextSendMessage(
-        text="請加入Line Id: wenjuichou"
+    '視聽觀看': TextSendMessage(
+        text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
-    '門市照片': ImageSendMessage(
-        original_content_url='https://picsum.photos/id/395/900/400',
-        preview_image_url='https://picsum.photos/id/395/900/400'
+    '匯款資訊': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
+        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+    ),
+    '國小課程查詢': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg',
+        preview_image_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg'
+    ),
+    '國中課程查詢': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
+        preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
+    ),
+    '課程報價': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg',
+        preview_image_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg'
+    ),
+    '預約視聽': TextSendMessage(
+        text="https://calendar.google.com/calendar/u/0?cid=Z2lubmllODMwMTI3QGdtYWlsLmNvbQ"
+    ),
+    '預約畫位': TextSendMessage(
+        text="https://docs.google.com/spreadsheets/d/18o1G9n05nC3cSrosfvnM99IEyg1V7jHJtm-CRmd2a_s/edit?pli=1#gid=0"
+    ),
+    '聯絡資訊': TextSendMessage(
+        text="電話:(02)2397-3999,地址:台北市中正區羅斯福路一段38號3樓"
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
@@ -220,11 +241,11 @@ faq = {
     'MediaTek': TextSendMessage(
         text="聯發科 2023/3/1 買點:945，賣點996"
     ),
-    '營業地址': LocationSendMessage(
+    '分校地址': LocationSendMessage(
         title='my location',
-        address='Taiwan',
-        latitude=25.03528,
-        longitude=121.56473
+        address='Taipei',
+        latitude=25.03150,
+        longitude=121.51912
     ),
     '查詢匯率': TemplateSendMessage(
         alt_text='Carousel template',
@@ -290,6 +311,7 @@ faq = {
                         )
                     ]
                 )
+                
             ]
         )
     )
@@ -313,41 +335,61 @@ menu = TemplateSendMessage(
         columns=[
             CarouselColumn(
                 # 卡片一圖片網址
-                thumbnail_image_url='https://picsum.photos/id/296/900/400',
-                title='報價查詢',
+                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
+                title='課程查詢及報價',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='查詢匯率',
-                        text='查詢匯率'
+                        label='國小課程查詢',
+                        text='國小課程查詢'
                     ),
                     MessageAction(
-                        label='美股即時報價',
-                        text='美股即時報價'
+                        label='國中課程查詢',
+                        text='國中課程查詢'
                     ),
                     MessageAction(
-                        label='台股即時報價',
-                        text='台股即時報價'
+                        label='課程報價',
+                        text='課程報價'
                     )
                 ]
             ),
             CarouselColumn(
                 # 卡片二圖片網址
-                thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='明牌報價',
+                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
+                title='視聽觀看預約畫位',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='美股買賣點',
-                        text='美股買賣點'
+                        label='視聽觀看',
+                        text='視聽觀看'
                     ),
                     MessageAction(
-                        label='台股買賣點',
-                        text='台股買賣點'
+                        label='預約畫位',
+                        text='預約畫位'
                     ),
                     MessageAction(
-                        label='其他公司買賣點諮詢',
-                        text='聯絡方式'
+                        label='預約視聽',
+                        text='預約視聽'
+                    )
+                ]
+            ),
+            CarouselColumn(
+                # 卡片二圖片網址
+                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
+                title='匯款資訊分校地址',
+                text='點選下方按鈕開始互動',
+                actions=[
+                    MessageAction(
+                        label='匯款資訊',
+                        text='匯款資訊'
+                    ),
+                    MessageAction(
+                        label='分校地址',
+                        text='分校地址'
+                    ),
+                    MessageAction(
+                        label='聯絡資訊',
+                        text='聯絡資訊'
                     )
                 ]
             )
