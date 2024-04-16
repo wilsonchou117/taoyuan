@@ -243,9 +243,9 @@ faq = {
     ),
     '分校地址': LocationSendMessage(
         title='my location',
-        address='Taipei',
-        latitude=25.03150,
-        longitude=121.51912
+        address='Taoyuan',
+        latitude=24.98998,
+        longitude=121.31184
     ),
     '查詢匯率': TemplateSendMessage(
         alt_text='Carousel template',
