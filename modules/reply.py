@@ -143,20 +143,20 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
     '匯款資訊': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
-        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+        original_content_url='https://i.postimg.cc/0jRW2Yrg/1.jpg',
+        preview_image_url='https://i.postimg.cc/0jRW2Yrg/1.jpg'
     ),
     '國小課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg',
-        preview_image_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg'
+        original_content_url='https://i.postimg.cc/zvxgPNsd/2.jpg',
+        preview_image_url='https://i.postimg.cc/zvxgPNsd/2.jpg'
     ),
     '國中課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
-        preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
+        original_content_url='https://i.postimg.cc/P5g8727k/3.jpg',
+        preview_image_url='https://i.postimg.cc/P5g8727k/3.jpg'
     ),
     '課程報價': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg',
-        preview_image_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg'
+        original_content_url='https://i.postimg.cc/0jRW2Yrg/1.jpg',
+        preview_image_url='https://i.postimg.cc/0jRW2Yrg/1.jpg'
     ),
     '預約視聽': TextSendMessage(
         text="https://calendar.google.com/calendar/u/0?cid=Z2lubmllODMwMTI3QGdtYWlsLmNvbQ"
@@ -165,7 +165,7 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/18o1G9n05nC3cSrosfvnM99IEyg1V7jHJtm-CRmd2a_s/edit?pli=1#gid=0"
     ),
     '聯絡資訊': TextSendMessage(
-        text="電話:(02)2397-3999,地址:台北市中正區羅斯福路一段38號3樓"
+        text="電話:(03)-3311833,地址:桃園市桃園區民權路6號7樓"
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
