@@ -155,8 +155,8 @@ faq = {
         preview_image_url='https://i.postimg.cc/P5g8727k/3.jpg'
     ),
     '課程報價': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/0jRW2Yrg/1.jpg',
-        preview_image_url='https://i.postimg.cc/0jRW2Yrg/1.jpg'
+        original_content_url='https://i.postimg.cc/gc3sY6pp/4.jpg',
+        preview_image_url='https://i.postimg.cc/gc3sY6pp/4.jpg'
     ),
     '預約視聽': TextSendMessage(
         text="https://calendar.google.com/calendar/u/0?cid=Z2lubmllODMwMTI3QGdtYWlsLmNvbQ"
