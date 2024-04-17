@@ -143,8 +143,8 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
     '匯款資訊': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/0jRW2Yrg/1.jpg',
-        preview_image_url='https://i.postimg.cc/0jRW2Yrg/1.jpg'
+        original_content_url='https://i.postimg.cc/05ThJnFP/145.png',
+        preview_image_url='https://i.postimg.cc/05ThJnFP/145.png'
     ),
     '國小課程查詢': ImageSendMessage(
         original_content_url='https://i.postimg.cc/zvxgPNsd/2.jpg',
