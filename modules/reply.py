@@ -143,16 +143,16 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
     '匯款資訊': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/05ThJnFP/145.png',
-        preview_image_url='https://i.postimg.cc/05ThJnFP/145.png'
+        original_content_url='https://i.postimg.cc/jqgrNvrY/c3.png',
+        preview_image_url='https://i.postimg.cc/jqgrNvrY/c3.png'
     ),
     '國小課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/zvxgPNsd/2.jpg',
-        preview_image_url='https://i.postimg.cc/zvxgPNsd/2.jpg'
+        original_content_url='https://i.postimg.cc/85pqffKC/c1.jpg',
+        preview_image_url='https://i.postimg.cc/85pqffKC/c1.jpg'
     ),
     '國中課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/P5g8727k/3.jpg',
-        preview_image_url='https://i.postimg.cc/P5g8727k/3.jpg'
+        original_content_url='https://i.postimg.cc/D0mHBkKk/c2.jpg',
+        preview_image_url='hhttps://i.postimg.cc/D0mHBkKk/c2.jpg'
     ),
     '課程報價': ImageSendMessage(
         original_content_url='https://i.postimg.cc/gc3sY6pp/4.jpg',
