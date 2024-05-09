@@ -152,7 +152,7 @@ faq = {
     ),
     '國中課程查詢': ImageSendMessage(
         original_content_url='https://i.postimg.cc/D0mHBkKk/c2.jpg',
-        preview_image_url='hhttps://i.postimg.cc/D0mHBkKk/c2.jpg'
+        preview_image_url='https://i.postimg.cc/D0mHBkKk/c2.jpg'
     ),
     '課程報價': ImageSendMessage(
         original_content_url='https://i.postimg.cc/gc3sY6pp/4.jpg',
